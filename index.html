@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sneha Srinivas | Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", sans-serif;
+            background: linear-gradient(180deg, #f4f1ea, #e9e3d8);
+            color: #3a3a3a;
+        }
+        nav {
+            background: #dcd3c3;
+            padding: 12px 20px;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            border-bottom: 2px solid #c9bda9;
+        }
+        nav a {
+            text-decoration: none;
+            color: #4a4337;
+            font-weight: 600;
+            font-size: 1rem;
+        }
+        nav a:hover {
+            opacity: 0.7;
+        }
+        .wrapper {
+            display: grid;
+            grid-template-columns: 300px 1fr;
+            gap: 30px;
+            width: 90%;
+            max-width: 1200px;
+            margin: 30px auto;
+        }
+        .sidebar {
+            background: #f9f7f3;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            height: fit-content;
+        }
+        .profile-pic {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #d6c8b8;
+            box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+            display: block;
+            margin: auto;
+        }
+        .sidebar h2 {
+            text-align: center;
+            margin-top: 15px;
+        }
+        .contact p {
+            margin: 6px 0;
+            font-size: 0.95rem;
+        }
+        section {
+            margin-bottom: 40px;
+            background: #ffffff;
+            padding: 25px;
+            border-radius: 14px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            border-left: 6px solid #d8cfbf;
+            scroll-margin-top: 100px;
+        }
+        section h2 {
+            margin-top: 0;
+            font-size: 1.6rem;
+            color: #3a3a3a;
+            border-bottom: 2px solid #eee4d4;
+            padding-bottom: 8px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+            color: #4a463f;
+        }
+        .download-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #d1c4b0;
+            color: #3a342c;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+        }
+        .download-btn:hover {
+            opacity: 0.8;
+        }
+        @media (max-width: 850px) {
+            .wrapper {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#objective">Objective</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#activities">Activities</a>
+        <a href="#awards">Awards</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="wrapper">
+        <div class="sidebar">
+            <img src="efa33518-649c-457d-9b92-ef1191ed26f1.jpeg" alt="Profile Photo" class="profile-pic" />
+            <h2>Sneha Srinivas</h2>
+            <div class="contact" id="contact">
+                <p><strong>Email:</strong> snehasrinivas0607@gmail.com</p>
+                <p><strong>Phone:</strong> +91 8073817717</p>
+                <p><strong>LinkedIn:</strong> linkedin.com/in/snehasrinivasa</p>
+                <p><strong>GitHub:</strong> github.com/snehasrinivas07</p>
+                <p><strong>Location:</strong> Bangalore, India</p>
+            </div>
+            <br>
+            <a class="download-btn" href="Sneha_Srinivas_Resume.pdf" download>Download Resume (PDF)</a>
+        </div>
+
+        <div>
+            <section id="objective">
+                <h2>Objective</h2>
+                <p>Motivated B.Tech AIML undergraduate with strong interest in software development, AI/ML, and game design. Skilled in C and Python, with hands-on experience using Unity and other game-building platforms. Seeking opportunities to apply technical skills, learn new skills, and contribute to impactful projects.</p>
+            </section>
+
+            <section id="education">
+                <h2>Education</h2>
+                <ul>
+                    <li><strong>B.Tech in Artificial Intelligence and Machine Learning</strong> – Bangalore Institute of Technology (2025–Present)<br>
+                    Courses: Mathematics, Physics, Programming in C, CAED, IEC
+                    </li>
+                </ul>
+            </section>
+
+            <section id="skills">
+                <h2>Technical Knowledge</h2>
+                <ul>
+                    <li><strong>Programming Languages:</strong> C, Python</li>
+                    <li><strong>Tools/Platforms:</strong> Unity, JetBrains, PyGame</li>
+                </ul>
+            </section>
+
+            <section id="experience">
+                <h2>Experience</h2>
+                <ul>
+                    <li><strong>Game Development Workshop & Competition — Participant (October 2025)</strong><br>
+                    Developed a functional game prototype using Unity and Jetrider, applying core game mechanics, environment design, and interactive asset creation. Built, tested, and submitted the game using PyGame and Firebase.
+                    </li>
+                </ul>
+            </section>
+
+            <section id="activities">
+                <h2>Activities & Volunteering</h2>
+                <ul>
+                    <li><strong>Volunteer English Tutor</strong> (2023–2024) — Government Kannada Medium School<br>
+                    Taught grammar, reading comprehension, and spoken communication for Classes 5–10.
+                    </li>
+                    <li><strong>Girl Guide — First Company Bangalore</strong> (2013–2023)<br>
+                    Led the company as Captain, coordinated events, and participated in leadership and community programs.
+                    </li>
+                </ul>
+            </section>
+
+            <section id="awards">
+                <h2>Achievements & Awards</h2>
+                <ul>
+                    <li><strong>Proficiency Award Recipient</strong> — Recognized for consistent academic excellence across multiple years.</li>
+                </ul>
+            </section>
+        </div>
+    </div>
+
+    <div class="footer">
+        © 2025 Sneha Srinivas. All rights reserved.
+    </div>
+</body>
+</html>
