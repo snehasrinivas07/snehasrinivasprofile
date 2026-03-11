@@ -1,154 +1,160 @@
-/* GLOBAL STYLES */
-
 body{
-    margin:0;
-    font-family:'Poppins', sans-serif;
-    background:#0f172a;
-    color:#f8fafc;
+margin:0;
+font-family:'Poppins', sans-serif;
+background:#0f172a;
+color:#f8fafc;
 }
 
-/* NAVIGATION BAR */
+
+/* NAVBAR */
 
 nav{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:20px 80px;
-    background:#020617;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 80px;
+background:#020617;
 }
 
 nav h2{
-    margin:0;
-    color:#38bdf8;
+margin:0;
+color:#38bdf8;
 }
 
 nav ul{
-    list-style:none;
-    display:flex;
-    gap:30px;
-    margin:0;
-    padding:0;
+list-style:none;
+display:flex;
+gap:30px;
+margin:0;
+padding:0;
 }
 
 nav a{
-    text-decoration:none;
-    color:#f8fafc;
-    font-weight:400;
-    transition:0.3s;
+text-decoration:none;
+color:#f8fafc;
+transition:0.3s;
 }
 
 nav a:hover{
-    color:#38bdf8;
+color:#38bdf8;
 }
+
 
 /* HERO SECTION */
 
 .hero{
-    height:90vh;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
-    padding:40px;
+height:90vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:40px;
 }
 
 .hero h1{
-    font-size:54px;
-    margin-bottom:20px;
+font-size:52px;
+margin-bottom:20px;
 }
 
 .hero span{
-    color:#38bdf8;
+color:#38bdf8;
 }
-
-/* INTRO PARAGRAPH */
 
 .intro{
-    max-width:650px;
-    line-height:1.7;
-    color:#94a3b8;
-    font-size:18px;
-    margin-bottom:35px;
+max-width:650px;
+line-height:1.7;
+color:#94a3b8;
+font-size:18px;
+margin-bottom:35px;
 }
 
-/* SOCIAL LINKS */
+
+/* SOCIAL BUTTONS */
 
 .social-links{
-    display:flex;
-    gap:25px;
+display:flex;
+gap:25px;
 }
 
 .social-links a{
-    text-decoration:none;
-    color:#38bdf8;
-    border:1px solid #38bdf8;
-    padding:12px 24px;
-    border-radius:8px;
-    font-weight:500;
-    transition:0.3s;
+text-decoration:none;
+color:#38bdf8;
+border:1px solid #38bdf8;
+padding:12px 24px;
+border-radius:8px;
+font-weight:500;
+transition:0.3s;
 }
 
 .social-links a:hover{
-    background:#38bdf8;
-    color:#020617;
+background:#38bdf8;
+color:#020617;
 }
 
-/* SECTION HEADINGS */
+
+/* SKILLS */
 
 section h2{
-    text-align:center;
-    margin-top:60px;
+text-align:center;
+margin-top:60px;
 }
 
-/* SKILLS GRID (for later use) */
-
 .skills-grid{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
-    gap:20px;
-    padding:40px 100px;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+gap:20px;
+padding:40px 120px;
 }
 
 .skills-grid div{
-    background:#1e293b;
-    padding:20px;
-    border-radius:10px;
-    text-align:center;
-    transition:0.3s;
+background:#1e293b;
+padding:20px;
+border-radius:10px;
+text-align:center;
+transition:0.3s;
 }
 
 .skills-grid div:hover{
-    transform:translateY(-5px);
-    background:#334155;
+transform:translateY(-6px);
+background:#334155;
 }
 
-/* RESPONSIVE DESIGN */
+
+/* CONTACT */
+
+#contact{
+text-align:center;
+padding:40px;
+}
+
+
+/* MOBILE */
 
 @media(max-width:768px){
 
 nav{
-    padding:20px;
+padding:20px;
 }
 
 nav ul{
-    gap:15px;
+gap:15px;
 }
 
 .hero h1{
-    font-size:38px;
+font-size:38px;
 }
 
 .intro{
-    font-size:16px;
+font-size:16px;
 }
 
 .social-links{
-    flex-direction:column;
+flex-direction:column;
 }
 
 .skills-grid{
-    padding:40px 30px;
+padding:40px;
 }
 
 }
